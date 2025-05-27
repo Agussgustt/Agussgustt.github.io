@@ -152,9 +152,6 @@ table, th, td {  /* estilo a la tabla creada en la pagina galeria.html*/
 .imgArtist{
 	width:500px;
 	height:350px;
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
 }
 	
 
