@@ -89,7 +89,7 @@ display: flex;
 
 	@media only screen and (max-width:620px) { /*consulta de medios especificando aplicar condiciones a la pantalla , en este caso 
 	un ancho máximo de 620px para adaptarse y no se distorsionen los elementos que hay en ella*/
-	 .izquierdo, .cuerpo, .derecho, .img, .video, .gif, iframe {   /* se consideran los divs que hacen la función para maquetar nuestra página, utilizando las clases .menu, .main, .right 
+	 .izquierdo, .cuerpo, .derecho, .img, .imgArtist, .video, iframe {   /* se consideran los divs que hacen la función para maquetar nuestra página, utilizando las clases .menu, .main, .right 
 	  que seran ordenados y adaptados a la pantalla */
 		width:100%;
 		  height: auto;
@@ -149,7 +149,9 @@ table, th, td {  /* estilo a la tabla creada en la pagina galeria.html*/
 	margin-right:auto;
 }
 
-.gif{
+.imgArtist{
+	width:500px;
+	height:350px;
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
