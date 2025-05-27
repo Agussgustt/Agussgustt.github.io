@@ -21,7 +21,7 @@ body{
 	}
 	
 	 #imglogo{ /* logo */
-		max-width:10%; /*propiedad, define el ancho máximo que un elemento puede tener*/
+		max-width:5%; /*propiedad, define el ancho máximo que un elemento puede tener*/
 		width:auto; /* propiedad width css establece el ancho de un elemento. Auto - Valor por defecto. El navegador calcula el ancho*/
 		height:auto; /* propiedad height css establece la altura de un elemento*/
 		float:left;  /* Mantiene la imagen flotando a la izquierda*/
@@ -89,9 +89,10 @@ display: flex;
 
 	@media only screen and (max-width:620px) { /*consulta de medios especificando aplicar condiciones a la pantalla , en este caso 
 	un ancho máximo de 620px para adaptarse y no se distorsionen los elementos que hay en ella*/
-	  .menu, .main, .right {   /* se consideran los divs que hacen la función para maquetar nuestra página, utilizando las clases .menu, .main, .right 
+	 .izquierdo, .cuerpo, .derecho, .img, .video, iframe {   /* se consideran los divs que hacen la función para maquetar nuestra página, utilizando las clases .menu, .main, .right 
 	  que seran ordenados y adaptados a la pantalla */
 		width:100%;
+		  height: auto;
 	  }
 	}
 
@@ -135,10 +136,20 @@ table, th, td {  /* estilo a la tabla creada en la pagina galeria.html*/
   margin-right: auto;
 }
 
+
+
 .class1{
-		width:325px; 
-		height:250px;
+		width:250px; 
+		height:400px;
 }
+
+.img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+	
+
 
 
 
